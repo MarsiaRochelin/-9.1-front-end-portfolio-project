@@ -6,10 +6,10 @@ fetch(URL)
 .catch(err => console.log(err))
 
 //colors
-// const black = data[0]['color']
-// const white = data[1]['color']
-// const red = data[2]['color']
-// const blue = data[3]['color']
-// const yellow = data[4]['color']
-// const green = data[5]['color']
+const black = data[0]['color']
+const white = data[1]['color']
+const red = data[2]['color']
+const blue = data[3]['color']
+const yellow = data[4]['color']
+const green = data[5]['color']
 
