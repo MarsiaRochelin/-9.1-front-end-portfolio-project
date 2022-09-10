@@ -4,11 +4,11 @@ form.addEventListener("submit", (e) => {
 
     e.preventDefault();
     
-    // let userInput = e.target["input"].value
+    let userInput = e.target["user-input"].value
 
-    // colorInfo(userInput)
+    //make userInput is case sensative so that the data for each color is returned
 
-    // e.target.reset();
+    e.target.reset();
 })
 
 const URL = "https://pursuit-9-1-full-stack-project.herokuapp.com/api/colors"
