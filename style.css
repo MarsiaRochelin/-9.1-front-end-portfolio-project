@@ -1,1 +1,20 @@
+body { display: grid;
+    /* font-family:; */
+    font-style: italic;
+    background-color: rgb(168, 104, 228);
+}
 
+header {text-align: center;
+    font-size: x-large;
+}
+
+form {text-align: center;
+    font-size: x-large;
+    color: rgb(7, 7, 244)   
+}
+
+img {
+   color: rgb(4, 131, 4);
+   font-size: x-large;
+   /* center the image */
+}
