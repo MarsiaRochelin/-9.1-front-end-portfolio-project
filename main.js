@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
 
 const URL = "https://pursuit-9-1-full-stack-project.herokuapp.com/api/colors"
 
-function colorInfo(colorSelection){
+function colorInfo(userInput){
     fetch(URL)
     .then(res => res.json()) 
     .then(data => console.log(data))
