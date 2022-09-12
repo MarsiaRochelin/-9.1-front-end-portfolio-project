@@ -1,20 +1,31 @@
 body { display: grid;
-    /* font-family:; */
-    font-style: italic;
-    background-color: rgb(168, 104, 228);
+    font-style: italic; 
 }
 
-header {text-align: center;
+header{text-align: center;
     font-size: x-large;
+}
+
+#about-the-creator:hover {
+    background-color: rgb(4, 146, 4)
+}
+
+#did-you-know:hover {
+    background-color: red
 }
 
 form {text-align: center;
     font-size: x-large;
-    color: rgb(7, 7, 244)   
+    color: red   
+}
+
+.selection {
+    font-size: x-large;  
 }
 
 img {
-   color: rgb(4, 131, 4);
-   font-size: x-large;
-   /* center the image */
+    /* center the image */
+    margin-top: 50px;
+    margin-left: 250px; 
 }
+
