@@ -36,9 +36,11 @@ function colorInfo(userInput){
     
     if(userInput === black){
         const blackPsychologhy = document.querySelector('#black')
+
         //get text/hyperlink to appear on the page
     } else if(userInput === white){
         const whitePsychologhy = document.querySelector('#white')
+        return whitePsychologhy
     } else if(userInput === red){
         const redPsychologhy = document.querySelector('#red')
     } else if(userInput === blue){
