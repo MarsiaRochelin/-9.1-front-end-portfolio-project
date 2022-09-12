@@ -20,9 +20,12 @@ form {text-align: center;
 }
 
 .selection {
-    font-size: x-large;  
+    text-align: center;
+    font-size: xx-large;  
 }
-
+.selection:hover {
+    background-color: ;
+}
 img {
     /* center the image */
     margin-top: 50px;

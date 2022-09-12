@@ -36,23 +36,26 @@ function colorInfo(userInput){
     
     if(userInput === black){
         const blackPsychologhy = document.querySelector('#black')
-
-        //get text/hyperlink to appear on the page
+        //add a hover to the text 
+        blackPsychologhy.textContent = 'BLACK'
     } else if(userInput === white){
         const whitePsychologhy = document.querySelector('#white')
-        return whitePsychologhy
+        whitePsychologhy.textContent = 'WHITE'
     } else if(userInput === red){
         const redPsychologhy = document.querySelector('#red')
+        redPsychologhy.textContent = 'RED'
     } else if(userInput === blue){
         const bluePsychologhy = document.querySelector('#blue')
+        bluePsychologhy.textContent = 'BLUE'
     } else if(userInput === yellow){
         const greenPsychologhy = document.querySelector('#yellow') 
+        greenPsychologhy.textContent = 'YELLOW'
     } else if(userInput === green){
         const yellowPsychologhy = document.querySelector('#green') 
+        yellowPsychologhy.textContent ='GREEN'
     } else {
         
     }
-
     })
     .catch(err => console.log(err))
 }
