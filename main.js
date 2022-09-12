@@ -32,7 +32,7 @@ function colorInfo(userInput){
         //each page should have a media query that changes the font-family, text color, and/or text size change depending on my screen size. 
     //else statement can account for error message handling for color selections not avaialable
 
-    const newPages = document.querySelector('.selection')
+    // const newPages = document.querySelector('.selection')
     
     if(userInput === black){
         const blackPsychologhy = document.querySelector('#black')

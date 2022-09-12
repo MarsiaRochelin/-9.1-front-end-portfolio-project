@@ -1,0 +1,11 @@
+body {background-color: red;
+}
+
+p {
+color: white;
+font-size: xx-large;
+}
+
+@media(min-max){
+
+}

@@ -19,13 +19,51 @@ form {text-align: center;
     color: red   
 }
 
+#b {
+ color: black;   
+}
+
+#r {color: red;
+}
+
+#bl {color: blue;
+}
+
+#y { color: yellow;
+}
+
+#g { color:green
+}
+
 .selection {
     text-align: center;
-    font-size: xx-large;  
+    font-size: xx-large;
+    margin-bottom: 75px; 
 }
-.selection:hover {
-    background-color: ;
+#black:hover {
+    background-color: black;
+    color: white;
 }
+#white {background-color: white;
+    color: black;
+}
+
+#red:hover {background-color: red;
+    color: white
+}
+
+#blue:hover {background-color: blue;
+    color: white;
+}
+
+#yellow:hover {
+    background-color: yellow;
+    color: white;
+}
+#green:hover {background-color: green;
+    color: white;
+}
+
 img {
     /* center the image */
     margin-top: 50px;
