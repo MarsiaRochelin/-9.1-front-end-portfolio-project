@@ -27,8 +27,6 @@ function colorInfo(userInput){
     const yellow = data[4]['color']
     const green = data[5]['color']
         
-    //else statement can account for error message handling for color selections not avaialable
-    
     if(userInput === black){
         const blackPsychologhy = document.querySelector('#black')
         blackPsychologhy.textContent = 'BLACK'
@@ -48,7 +46,7 @@ function colorInfo(userInput){
         const yellowPsychologhy = document.querySelector('#green') 
         yellowPsychologhy.textContent ='GREEN'
     } else {
-        
+        window.confirm("A selection of a color in the avalibale list must be selected.")
     }
     })
     .catch(err => console.log(err))
