@@ -1,4 +1,4 @@
-body { display: grid;
+body {display: grid;
     font-style: italic; 
 }
 
@@ -6,12 +6,10 @@ header{text-align: center;
     font-size: x-large;
 }
 
-#about-the-creator:hover {
-    background-color: rgb(4, 146, 4)
+#about-the-creator:hover {background-color: rgb(4, 146, 4)
 }
 
-#did-you-know:hover {
-    background-color: red
+#did-you-know:hover {background-color: red
 }
 
 form {text-align: center;
@@ -19,8 +17,7 @@ form {text-align: center;
     color: red   
 }
 
-#b {
- color: black;   
+#b {color: black;   
 }
 
 #r {color: red;
@@ -29,19 +26,17 @@ form {text-align: center;
 #bl {color: blue;
 }
 
-#y { color: yellow;
+#y {color: yellow;
 }
 
-#g { color:green
+#g {color:green
 }
 
-.selection {
-    text-align: center;
+.selection {text-align: center;
     font-size: xx-large;
     margin-bottom: 75px; 
 }
-#black:hover {
-    background-color: black;
+#black:hover {background-color: black;
     color: white;
 }
 #white {background-color: white;
@@ -56,8 +51,7 @@ form {text-align: center;
     color: white;
 }
 
-#yellow:hover {
-    background-color: yellow;
+#yellow:hover {background-color: yellow;
     color: white;
 }
 #green:hover {background-color: green;
