@@ -6,6 +6,8 @@ color: white;
 font-size: xx-large;
 }
 
+/* each page should have a media query that changes the font-family, text color, and/or text size change depending on my screen size.  */
+
 @media(min-max){
 
 }
