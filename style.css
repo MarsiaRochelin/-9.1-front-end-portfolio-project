@@ -1,66 +1,115 @@
-body {display: grid;
-    font-style: italic; 
+body {
+  /* display: grid; */
+  font-style: italic;
+  text-align: center;
+  font-size: xx-large;
 }
 
-header{text-align: center;
-    font-size: x-large;
+header {
+  text-align: center;
+  font-size: x-large;
 }
 
-#about-the-creator:hover {background-color: rgb(4, 146, 4)
+#about-the-creator:hover {
+  background-color: rgb(4, 146, 4);
 }
 
-#did-you-know:hover {background-color: red
+#did-you-know:hover {
+  background-color: red;
 }
 
-form {text-align: center;
-    font-size: x-large;
-    color: red   
+form {
+  text-align: center;
+  font-size: x-large;
+  color: red;
+}
+.rainbow {
+text-shadow: 1px 1px black;
+}
+#b {
+  color: black;
 }
 
-#b {color: black;   
+#r {
+  color: red;
 }
 
-#r {color: red;
+#bl {
+  color: blue;
 }
 
-#bl {color: blue;
+#y {
+  color: rgb(225, 225, 33);
 }
 
-#y {color: yellow;
+#g {
+  color: green;
 }
 
-#g {color:green
+.selection {
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 75px;
 }
 
-.selection {text-align: center;
-    font-size: xx-large;
-    margin-bottom: 75px; 
-}
-#black:hover {background-color: black;
-    color: white;
-}
-#white {background-color: white;
-    color: black;
+#black:hover {
+  background-color: black;
+  color: white;
 }
 
-#red:hover {background-color: red;
-    color: white
+#white {
+  background-color: white;
+  color: black;
 }
 
-#blue:hover {background-color: blue;
-    color: white;
+#red:hover {
+  background-color: red;
+  color: white;
 }
 
-#yellow:hover {background-color: yellow;
-    color: white;
+#blue:hover {
+  background-color: blue;
+  color: white;
 }
-#green:hover {background-color: green;
-    color: white;
+
+#yellow:hover {
+  background-color: yellow;
+  color: white;
+}
+#green:hover {
+  background-color: green;
+  color: white;
 }
 
 img {
-    /* center the image */
-    margin-top: 50px;
-    margin-left: 250px; 
+  /* center the image */
+  margin-top: 50px;
+  margin-left: 270px;
 }
 
+@media (max-width: 720px) {
+  #b {
+    color: green;
+  }
+
+  #r {
+    color: rgba(232, 232, 29, 0.817);
+  }
+
+  #bl {
+    color: blue;
+  }
+
+  #y {
+    color: red;
+  }
+
+  #g {
+    color: black;
+  }
+
+  img {
+    width: 400px;
+    height: 400px;
+  }
+}

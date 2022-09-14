@@ -1,4 +1,6 @@
-body {background-color: rgb(168, 104, 228);
+body {
+  /* display:grid; */
+  background-color: rgb(168, 104, 228);
   color: rgb(7, 7, 244);
   font-size: xx-large;
   text-align: center;
@@ -14,6 +16,21 @@ body {background-color: rgb(168, 104, 228);
   height: 400px
 }
 
-@media (min-width: px ){
-
+@media (max-width:720px ){
+  body {
+    /* display:grid; */
+    background-color:rgb(7, 7, 244);
+    color: rgb(168, 104, 228);
+    font-size: x-large;
+    text-align: center;
+  }
+  #cosmos {width: 200px;
+    height: 200px
+  }
+  #vybes-chaser {width: 200px;
+    height: auto
+  }
+  #aura {width: 200px;
+    height: 200px
+  }
 }
