@@ -23,7 +23,7 @@ form {
   font-size: x-large;
   color: red;
 }
-.rainbow {
+.crainbow {
 text-shadow: 1px 1px black;
 }
 #b {
@@ -110,6 +110,6 @@ img {
 
   img {
     width: 400px;
-    height: 400px;
+    height: auto;
   }
 }

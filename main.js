@@ -31,30 +31,31 @@ function colorInfo(userInput) {
       const blue = data[3]["color"];
       const yellow = data[4]["color"];
       const green = data[5]["color"];
-
       const aTags = document.querySelectorAll('a')
-      //loop through a tags so that textContent assigned is empty to prevent multiple selections from showing up on the screen at the same time
-      blackPsychologhy.textContent = "";
-
+      
+      aTags.forEach(tag => {
+        tag.textContent = ''
+      })
+     
       if (userInput.toLowerCase() === black) {
         //make image size smaller when color is selcted
-        img.setAttribute("style", "width:400px; height:400px;");
+        img.setAttribute("style", "width:600px; height:auto;");
         blackPsychologhy.textContent = "BLACK";
       } else if (userInput.toLowerCase() === white) {
-        img.setAttribute("style", "width:400px; height:400px;");
+        img.setAttribute("style", "width:600px; height:auto;");
         whitePsychologhy.textContent = "";
         whitePsychologhy.textContent = "WHITE";
       } else if (userInput.toLowerCase() === red) {
-        img.setAttribute("style", "width:400px; height:400px;");
+        img.setAttribute("style", "width:600px; height:auto;");
         redPsychologhy.textContent = "RED";
       } else if (userInput.toLowerCase() === blue) {
-        img.setAttribute("style", "width:400px; height:400px;");
+        img.setAttribute("style", "width:600px; height:auto;");
         bluePsychologhy.textContent = "BLUE";
       } else if (userInput.toLowerCase() === yellow) {
-        img.setAttribute("style", "width:400px; height:400px;");
+        img.setAttribute("style", "width:600px; height:auto;");
         yellowPsychologhy.textContent = "YELLOW";
       } else if (userInput.toLowerCase() === green) {
-        img.setAttribute("style", "width:400px; height:400px;");
+        img.setAttribute("style", "width:600px; height:auto;");
         greenPsychologhy.textContent = "GREEN";
       } else {
         window.confirm(
