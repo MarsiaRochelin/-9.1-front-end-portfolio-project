@@ -81,11 +81,13 @@ text-shadow: 1px 1px black;
   color: white;
 }
 
-img {
+.grid {
   /* center the image */
-  margin-top: 50px;
-  margin-left: 270px;
+  /* margin-top: 50px;
+  margin-left: 270px; */
+  padding: 50px;
 }
+ 
 
 @media (max-width: 720px) {
   #b {

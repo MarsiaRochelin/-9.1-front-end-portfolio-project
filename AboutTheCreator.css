@@ -5,15 +5,15 @@ body {
   font-size: xx-large;
   text-align: center;
 }
+.grid {
+  display: flex;
+  justify-content: space-around;
+}
 
-#cosmos {width: 400px;
-  height: 400px
-}
-#vybes-chaser {width: 400px;
-  height: auto
-}
-#aura {width: 400px;
-  height: 400px
+#cosmos, #vybes-chaser, #aura{
+width:200px;
+display:block;
+border:2px solid cyan;
 }
 
 @media (max-width:720px ){
