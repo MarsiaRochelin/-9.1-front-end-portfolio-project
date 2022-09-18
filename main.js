@@ -38,6 +38,8 @@ function colorInfo(userInput) {
         tag.textContent = "";
       });
 
+      //Media query doesnt work when color is selected
+      
       if (userInput.toLowerCase() === black) {
         img.setAttribute("style", "width:600px; height:auto;");
         blackPsychologhy.textContent = "BLACK";
