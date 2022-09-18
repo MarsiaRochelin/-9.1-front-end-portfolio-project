@@ -4,7 +4,7 @@ const redPsychologhy = document.querySelector("#red");
 const bluePsychologhy = document.querySelector("#blue");
 const yellowPsychologhy = document.querySelector("#yellow");
 const greenPsychologhy = document.querySelector("#green");
-const aTags = document.querySelectorAll('a')
+const aTags = document.querySelectorAll("a");
 const img = document.querySelector("img");
 const form = document.querySelector("form");
 
@@ -24,8 +24,8 @@ function colorInfo(userInput) {
   fetch(URL)
     .then((res) => res.json())
     .then((data) => {
-      console.log(data)
-      
+      console.log(data);
+
       //colors
       const black = data[0]["color"];
       const white = data[1]["color"];
@@ -34,10 +34,10 @@ function colorInfo(userInput) {
       const yellow = data[4]["color"];
       const green = data[5]["color"];
 
-      aTags.forEach(tag => {
-        tag.textContent = ''
-      })
-     
+      aTags.forEach((tag) => {
+        tag.textContent = "";
+      });
+
       if (userInput.toLowerCase() === black) {
         img.setAttribute("style", "width:600px; height:auto;");
         blackPsychologhy.textContent = "BLACK";

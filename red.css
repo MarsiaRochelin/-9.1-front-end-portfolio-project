@@ -1,21 +1,15 @@
-body {background-color: red;
+body {
+  margin: 125px;
+  background-color: red;
+  font-family: sans-serif;
+  color: white;
+  font-size: xx-large;
 }
 
-p {
-color: white;
-font-size: xx-large;
+@media (max-width: 720px) {
+  body {
+    background-color: white;
+    color: red;
+    font-size: large;
+  }
 }
-/* each page should have a media query that changes the font-family, text color, and/or text size change depending on my screen size.  */
-
-@media (max-width:720px ){
-    body {
-      /* display:grid; */
-      background-color: white
-      }
-      
-      p {
-      color: red;
-      font-size: xx-large;
-      }
-      
-    }

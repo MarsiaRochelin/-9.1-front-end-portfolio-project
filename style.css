@@ -24,7 +24,7 @@ form {
   color: red;
 }
 .crainbow {
-text-shadow: 1px 1px black;
+  text-shadow: 1px 1px black;
 }
 #b {
   color: black;
@@ -82,13 +82,8 @@ text-shadow: 1px 1px black;
 }
 
 .grid {
-  /* center the image */
-  /* margin-top: 50px;
-  margin-left: 270px; */
   padding: 50px;
-  
 }
- 
 
 @media (max-width: 720px) {
   #b {
