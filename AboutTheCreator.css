@@ -24,13 +24,10 @@ border:2px solid cyan;
     font-size: x-large;
     text-align: center;
   }
-  #cosmos {width: 200px;
-    height: 200px
-  }
-  #vybes-chaser {width: 200px;
-    height: auto
-  }
-  #aura {width: 200px;
-    height: 200px
-  }
+
+  #cosmos, #vybes-chaser, #aura{
+    width:150px;
+    display:block;
+    border:2px solid cyan;
+    }
 }

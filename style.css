@@ -28,22 +28,27 @@ form {
 }
 #b {
   color: black;
+  text-shadow: 1px 1px black
 }
 
 #r {
   color: red;
+  text-shadow: 1px 1px black
 }
 
 #bl {
   color: blue;
+  text-shadow: 1px 1px black
 }
 
 #y {
   color: rgb(225, 225, 33);
+  text-shadow: 1px 1px black
 }
 
 #g {
   color: green;
+  text-shadow: 1px 1px black
 }
 
 .selection {
@@ -88,22 +93,27 @@ form {
 @media (max-width: 720px) {
   #b {
     color: green;
+    text-shadow: 1px 1px black
   }
 
   #r {
     color: rgba(232, 232, 29, 0.817);
+    text-shadow: 1px 1px black
   }
 
   #bl {
     color: blue;
+    text-shadow: 1px 1px black
   }
 
   #y {
     color: red;
+    text-shadow: 1px 1px black
   }
 
   #g {
     color: black;
+    text-shadow: 1px 1px black
   }
 
   img {
