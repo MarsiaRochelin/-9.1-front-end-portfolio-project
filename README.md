@@ -12,3 +12,9 @@ https://marsiarochelin.github.io/9.1-front-end-portfolio-project/
     -As a [user] if you hover over that color you see the backgroung color change to the selected color(accept white).
     -As a [user] if you click on the link/text you'll be lead to a different page where you'll learn the color psychology of the color you chose if it's appart of the API data from the fetch else [user] should get an error message to slect a color apart of the selection.
     -As a [user] when you adjust the screen size to a certain pont you will see the text color, background, and font size change.
+
+In a long term refactor I plan to:
+     - Use one html page to represent all the color pages instead instead of creating a page for each color, and change the css and values on each click.
+     -List my colors selesctions on the home page.
+     -Look into Google fonts for a better font.
+     

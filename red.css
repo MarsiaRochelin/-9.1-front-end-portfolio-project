@@ -3,7 +3,12 @@ body {
   background-color: red;
   font-family: sans-serif;
   color: white;
+  text-shadow: 1px 1px black;
   font-size: xx-large;
+}
+
+a:hover { 
+  background-color:lightseagreen;
 }
 
 @media (max-width: 720px) {

@@ -1,9 +1,16 @@
 body {
-  margin: 125px;
   background-color: white;
   color: black;
   font-size: xx-large;
   text-align: center;
+}
+
+a:hover { 
+  background-color:lightseagreen;
+}
+
+main {
+  margin: 100px;
 }
 
 @media (max-width: 720px) {
